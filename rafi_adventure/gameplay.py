@@ -24,7 +24,7 @@ def char_setup():
     while not char_sel:
         clear_screen()
         print("Character Selection")
-        print("**************")
+        print("*******************")
         print("1. Warrior")
         print("2. Mage")
         print("\n")
