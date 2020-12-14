@@ -1,0 +1,3 @@
+import gameplay
+
+gameplay.main()

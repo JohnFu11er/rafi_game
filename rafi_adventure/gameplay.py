@@ -1,5 +1,5 @@
 import time
-from Player_data import *
+from functions import *
 
 def main():
     char_setup()
