@@ -2,6 +2,6 @@ FROM centos/python-36-centos7
 
 LABEL maintainer='john.adrift@gmail.com'
 
-COPY ./rafi_adventure .
+COPY . ./
 
 CMD [ "python", "./rafi_adventure/" ]
