@@ -75,5 +75,5 @@ def testing():
     print(f"enemy hp: {great_frost_dragon._hp}")
     Character.fight(player_1, great_frost_dragon)
     
-
-main()       
+if __name__ == "__main__":
+    main()       
