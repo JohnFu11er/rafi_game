@@ -71,7 +71,6 @@ class Character():
 
     def heal(self):
         self._hp = self._stats["hp"]
-        print(f"{self._name} runs away")
         print(f"{self._name} has been healed! HP has been restored to {self._hp}")
     
     def show_character_status(self):
