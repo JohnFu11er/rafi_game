@@ -1,5 +1,7 @@
 import time
+import random
 from functions import *
+
 
 def main():
     char_setup()
@@ -10,6 +12,9 @@ def main():
 # Global vars
 player_1 = str()
 great_frost_dragon = Enemy("Great Frost Dragon", 20, 0, 7)
+fluffy_puppy = Enemy("Fluffy Puppy", 10, 0, 5)
+monolith = Enemy("Monolith", 100, 50, 20)
+
 
 
 def char_setup():
@@ -53,7 +58,8 @@ def level_1():
     print("large creature. As you crouch behind a nearby bush, the great beast")
     print("comes into view. It's huge form stands before you as you decide what")
     print("to do next.\n")
-    Character.fight_choice(player_1, great_frost_dragon)
+    possible_enemies = [great_frost_dragon, fluffy_puppy, monolith]
+    Character.fight_choice(player_1, possible_enemies[random.randrange(0,3)])
 
 
 def level_2():
