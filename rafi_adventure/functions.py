@@ -30,7 +30,7 @@ class Character():
                 print(f"You swing your mighty {self._weapon}...")
                 time.sleep(2)
                 if random.randrange(0,100) > 30:
-                    print(f"and do {self._ap} of damage to {opponent._name}.")
+                    print(f"and do {self._ap} damage to {opponent._name}.")
                     opponent._hp -= self._ap
                 else:
                     print(f"but you miss {opponent._name} and do no damage.")
