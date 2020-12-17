@@ -1,0 +1,20 @@
+{
+    "Great Frost Dragon" :
+    {
+        "hp" : 1,
+        "mp" : 0,
+        "dp" : 7
+    },
+    "Fluffy Puppy" :
+    {
+        "hp" : 1,
+        "mp" : 0,
+        "dp" : 5
+    },
+    "Monolith" :
+    {
+        "hp" : 1,
+        "mp" : 0,
+        "dp" : 20
+    }
+}
