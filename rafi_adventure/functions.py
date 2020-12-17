@@ -7,7 +7,7 @@ import json
 computer_os = platform.system()
 
 # Fetch enemy data from JSON file
-with open('enemies.json', mode='rt') as _data:
+with open('./enemies.json', mode='rt') as _data:
     enemy_data = json.loads(_data.read())
 
 class Character():
